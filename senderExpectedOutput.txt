@@ -1,0 +1,47 @@
+original message string: msg1
+packet created: b'COMPNETW\xfd\x00\x00msg1'
+packet num.1 is successfully sent to the receiver.
+packet is received correctly: seq. num 0 - ACK num. 0. all done!
+
+original message string: msg2
+packet created: b'COMPNETW\xfd\x00\x00msg2'
+packet num.2 is successfully sent to the receiver.
+packet is received correctly: seq. num 1 - ACK num. 1. all done!
+
+original message string: msg3
+packet created: b'COMPNETW\xfd\x00\x00msg3'
+packet num.3 is successfully sent to the receiver.
+receiver acked the previous pkt, resend!
+
+[ACK.Previous retransmission]: msg3
+packet num.4 is successfully sent to the receiver.
+packet is received correctly: seq. num 0 - ACK num. 0. all done!
+
+original message string: msg4
+packet created: b'COMPNETW\xfd\x00\x00msg4'
+packet num.5 is successfully sent to the receiver.
+packet is received correctly: seq. num 1 - ACK num. 1. all done!
+
+original message string: msg5
+packet created: b'UMPMPwZXJ\xfd\x00\x00msg5'
+packet num.6 is successfully sent to the receiver.
+socket timeout! Resend!
+
+[timeout retransmission]: msg5
+packet num.7 is successfully sent to the receiver.
+packet is received correctly: seq. num 0 - ACK num. 0. all done!
+
+original message string: msg6
+packet created: b'COMPNETW\xfd\x00\x00msg6'
+packet num.8 is successfully sent to the receiver.
+packet is received correctly: seq. num 1 - ACK num. 1. all done!
+
+original message string: msg7
+packet created: b'COMPNETW\xfd\x00\x00msg7'
+packet num.9 is successfully sent to the receiver.
+packet is received correctly: seq. num 0 - ACK num. 0. all done!
+
+[ACK-Previous retransmission]: msg7
+packet created: b'COMPNETW\xfd\x00\x00msg7'
+packet num.9 is successfully sent to the receiver.
+packet is received correctly: seq. num 0 - ACK num. 0. all done!

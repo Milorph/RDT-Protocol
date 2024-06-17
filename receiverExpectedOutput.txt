@@ -1,0 +1,46 @@
+packet num.1 received: b'COMPNETW\x7d\xde\x00msg1'
+packet is expected, message string delivered: msg1
+packet is delivered, now creating and sending the ACK packet...
+all done for this packet!
+
+packet num.2 received: b'COMPNETW\xf7\xdc\x00msg2'
+packet is expected, message string delivered: msg2
+packet is delivered, now creating and sending the ACK packet...
+all done for this packet!
+
+packet num.3 received: b'COMPNETW\xf7\xdc\x00msg3'
+simulating packet bit errors/corrupted: ACK the previous packet!
+all done for this packet!
+
+packet num.4 received: b'COMPNETW\xf7\xdc\x00msg3'
+packet is expected, message string delivered: msg3
+packet is delivered, now creating and sending the ACK packet...
+all done for this packet!
+
+packet num.5 received: b'COMPNETW\xf7\xda\x00msg4'
+packet is expected, message string delivered: msg4
+packet is delivered, now creating and sending the ACK packet...
+all done for this packet!
+
+packet num.6 received: b'COMPNETW\xf7\xda\x00msg5'
+simulating packet loss: sleep a while to trigger timeout event on the send side...
+all done for this packet!
+
+packet num.7 received: b'COMPNETW\xf7\xda\x00msg5'
+packet is expected, message string delivered: msg5
+packet is delivered, now creating and sending the ACK packet...
+all done for this packet!
+
+packet num.8 received: b'COMPNETW\xf7\xd8\x00msg6'
+packet is expected, message string delivered: msg6
+packet is delivered, now creating and sending the ACK packet...
+all done for this packet!
+
+packet num.9 received: b'COMPNETW\xf7\xd8\x00msg7'
+simulating packet bit errors/corrupted: ACK the previous packet!
+all done for this packet!
+
+packet num.10 received: b'COMPNETW\xf7\xd8\x00msg7'
+packet is expected, message string delivered: msg7
+packet is delivered, now creating and sending the ACK packet...
+all done for this packet!
